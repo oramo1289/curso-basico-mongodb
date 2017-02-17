@@ -29,6 +29,7 @@ db.collection('Users').findOneAndUpdate({
     text:'Jeannette'
   },
   $inc:{age : 2}
+  //update operator
 },{
   returnOriginal: false
 }).then((result)=>{
