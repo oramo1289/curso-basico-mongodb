@@ -4,8 +4,8 @@ var Todo = mongoose.model('Todo', {
   text:{
     type: String,
     require: true,
-    minlength: 1,
-    trim: true//se deshace de los espacios en blanco
+    minlength: 2,
+    trim: false//se deshace de los espacios en blanco
   },
   completed:{
     type: Boolean,
