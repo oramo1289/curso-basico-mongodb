@@ -1,8 +1,10 @@
+/*
 // var env = process.env.NODE_ENV;
 // console.log('ENV ********', env);
 //$env:NODE_ENV="production"
-
+// SET \"NODE_ENV=development\"&&
 //SET \"NODE_ENV=test\" &&
+*/
 const _ = require('lodash');
 const express = require('express');
 const {ObjectID} = require('mongodb');
